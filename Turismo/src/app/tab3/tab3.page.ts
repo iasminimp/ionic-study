@@ -15,7 +15,7 @@ export class Tab3Page {
   }
   async like(){ //função de pop-up (assincrona pois pode demorar para carregar)
     const toast = await this.toastController.create({
-      message: 'Obrigada por favoritar.',
+      message: 'Pop-Up: Obrigada.',
       duration: 2000
     });
     toast.present();
